@@ -19,14 +19,13 @@ $(function() {
             }
             $.ajax({
                 url: "https://formspree.io/yangsimeng@yahoo.ca",
-                method: "POST",
+                type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-				dataType: "json"
                 cache: false,
                 success: function() {
                     // Success message
