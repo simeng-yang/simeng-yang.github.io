@@ -111,7 +111,7 @@
                     <div class="col-sm-6">
                         <p style="margin-top: 0%%">Hello world! I'm Simeng - thanks for visiting my personal website!
                         <br> <br>
-                        I'm a Mechatronics Engineering undergrad student at the University of Waterloo. 
+                        I'm a 1B Mechatronics Engineering student at the University of Waterloo.
 						Ever since I realized the wonders of tinkering with circuits and electronics in high school, 
 				        I have held a passion for robotics. The idea of a self-driving car or robotic assistant is the way of the future,
 						one which I hope to help build. I've been involved in a variety of projects, from programming multiplayer Pong on Arduino,
@@ -127,7 +127,7 @@
         <br> <br> <br>
 			
         <h2 style="text-align: center;">
-                &nbsp;&nbsp;&nbsp;THERE BE PROJECTS!&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;PROJECTS BELOW!&nbsp;&nbsp;&nbsp;
         </h2>
         <h2 style="text-align: center;">
             <a href="#portfolio" class="btn btn-circle page-scroll circle-border">
@@ -431,11 +431,24 @@
                             <h2>SketchIt - Printer Extraordinaire</h2>
                             <p class="item-intro text-muted">Embedded C on NXT microcomputer</p>
                             <img class="img-responsive img-centered" src="img/Final/f1.jpg" alt="">
-                            <p>A printer capable of sketching shapes and words onto a sheet of paper, housed in a LEGO frame.
-							<br><br>The printer operates by connecting a collection of points in an appropriate order, either pen-down (for drawing) 
-							or pen-up (when not drawing and only translating). 
-							<br><br>The pen is able to translate along the X, Y and Z axes and is 
-							thus capable of arbitrary plots within the dimensions of a given sheet of paper.</p>
+                            <p>For my 1A final design project, I worked in a group of 4 to implement a printer using an NXT Mindstorms microcomputer,
+						    sensors and motors. The mechanical frame of the printer was built out of LEGO, being very extensible and modular.
+							The printer would be capable of reproducing a sketch onto a sheet of paper from a set of 25+ input points, limited mostly
+							by the finite memory space of the Mindstorms microcomputer. The printer operates by connecting a collection of points in an appropriate order, either pen-down (for drawing) 
+							or pen-up (when not drawing and only translating). One motor spins the bottom rotor, shifting the vertical position of 
+							the paper, while another motor moves the pen across the paper horizontally. A third motor controls the up and down motion of
+							the pen. 
+							<br>
+							Motion was measured using encoders, with the number of motor ticks representing the distance travelled along a given direction.
+							A touch sensor was strategically placed at one end of the printer to accurately determine the horizontal translation of the pen, 
+							with an additional touch sensor for the vertical motor also. A colour sensor was used to read the presence of the paper. 
+							<br>
+							Over a series of several weeks, my group and I iterated through multiple design variants, making adjustments to improve 
+							overall functionality and performance. 
+							To facilitate the input process, I developed a graphical interface in C++, accepting mouse and keyboard input.
+							The user is thus able to easily create a sketch for the printer to reproduce, instantly visualizing their plot. 
+							The printer was fairly accurate, recognizably sketching a variety of figures ranging from polygons to "TRON".
+							</p>
 							 
                             <a class="btn btn-lg btn-success" href="https://github.com/simeng-yang/SketchIt-2D-Printer">
                                 <i class="fa fa-github fa-3x pull-left"></i>View on<br>Github</a>
