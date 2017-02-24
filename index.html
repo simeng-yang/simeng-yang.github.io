@@ -436,18 +436,18 @@
 							The printer would be capable of reproducing a sketch onto a sheet of paper from a set of 25+ input points, limited mostly
 							by the finite memory space of the Mindstorms microcomputer. The printer operates by connecting a collection of points in an appropriate order, either pen-down (for drawing) 
 							or pen-up (when not drawing and only translating). One motor spins the bottom rotor, shifting the vertical position of 
-							the paper, while another motor moves the pen across the paper horizontally. A third motor controls the up and down motion of
+							the paper, while another motor moves the pen across the paper horizontally. <br>A third motor controls the up and down motion of
 							the pen. 
-							<br>
+							<br><br>
 							Motion was measured using encoders, with the number of motor ticks representing the distance travelled along a given direction.
 							A touch sensor was strategically placed at one end of the printer to accurately determine the horizontal translation of the pen, 
 							with an additional touch sensor for the vertical motor also. A colour sensor was used to read the presence of the paper. 
-							<br>
+							<br><br>
 							Over a series of several weeks, my group and I iterated through multiple design variants, making adjustments to improve 
 							overall functionality and performance. 
 							To facilitate the input process, I developed a graphical interface in C++, accepting mouse and keyboard input.
 							The user is thus able to easily create a sketch for the printer to reproduce, instantly visualizing their plot. 
-							The printer was fairly accurate, recognizably sketching a variety of figures ranging from polygons to "TRON".
+							The printer was fairly accurate, recognizably sketching a variety of figures ranging from polygons to "TRON".<br>
 							</p>
 							 
                             <a class="btn btn-lg btn-success" href="https://github.com/simeng-yang/SketchIt-2D-Printer">
@@ -485,8 +485,18 @@
                             <h2>Skittle Sorter & Dispenser</h2>
                             <p class="item-intro text-muted">Electromechanical Candy Distribution Unit</p>
                             <img class="img-responsive img-centered" src="img/Skittle/skittle1.png" alt="">
-                            <p>An autonomous Skittle dispenser for allocating Skittles into separate bins, with motors, an RGB sensor and 3D-printed components.</p>
-							<p>Although there were some issues with the sensor configuration, the design process was largely succesful.</p>
+                            <p>For my computer engineering final project in grade 12, I worked in a group of 3 to build an autonomous Skittle sorter and dispenser, 
+							making the frame out of LEGO and using Arduino to control the motors and colour sensor. Over a period of several weeks, 
+							my team and I assembled the frame, along with power supply, motor attachments and sensor interfacing. 
+							Various custom 3D-printed components were created, including a wheel and shroud, through which Skittles would be rotated
+							prior to dispensing. 
+							<br><br>
+							
+							Motors would control the axial rotation of the machine body, in addition to the allocation wheel. An integrated 
+							colour sensor would determine the colour of each incoming Skittle and assign the bin to which the Skittle would be allocated. 
+							To optimize accuracy, I compiled a consistency analysis of Skittle readings to determine which RGB component would most reliably
+							correspond to the colour of Skittle. <br>
+							</p>
                             <a class="btn btn-lg btn-success" href="https://github.com/simeng-yang/Candy-Machine">
                                 <i class="fa fa-github fa-3x pull-left"></i>View on<br>Github</a>
                                 <br> <br>
@@ -864,9 +874,12 @@
                             <h2>Multiplayer Pong</h2>
                             <p class="item-intro text-muted">Pong with Arduino microcontroller</p>
                             <img class="img-responsive img-centered" src="img/Pong.jpg" alt="">
-                            <p>Programmed on an 8x8 LED matrix with use of an Arduino microcontroller. 
-							Switches act as button-controllers to move paddles for two players. 
-							Buttons can be used to change direction of paddle through rapid clicking, subject to a time threshold.</p>
+                            <p>In a spin on an old classic, I programmed multiplayer Pong on an 8x8 LED matrix with use of an Arduino microcontroller. 
+							Switches acted as button-controllers to move paddles for two players. 
+							<br><br>Buttons could be used to change direction of paddle through rapid clicking, subject to a time threshold.
+							I developed logic tables to determine pin configurations for row-column states. A given combination of ON and OFF
+							for rows and columns would produce a certain LED display, which could be cycled through for animation.
+							I implemented functions in Arduino to toggle the states of rows and columns to program displays more easily. </p>
 
                             <a class="btn btn-lg btn-success" href="https://github.com/simeng-yang/Pong-on-8x8-Matrix-Display">
                                 <i class="fa fa-github fa-3x pull-left"></i>View on<br>Github</a>
@@ -1054,8 +1067,22 @@
                             <h2>Student Database Management System</h2>
                             <p class="item-intro text-muted">Secure and easy way to register students</p>
                             <img class="img-responsive img-centered" src="img/Database.jpg" alt="">
-                            <p>Students and administrators can add new student records. 
-							Administrators can securely retrieve and delete student records.</p>
+                            <p>In consultation with the department of physical education at Westmount Secondary School, I was tasked with 
+							developing a portal for a new initiative of outdoors programs which were to be released the following year.
+							In partnership with McMaster University Recreation and their Leadership Program, 
+							the initiative would help create active, ecologically aware and outdoors-experienced leaders. 
+							<br><br>
+							This project sought to provide the following administrative benefits:
+							•	Students will have easy and immediately available access to course information and opportunities
+							•	Programs and courses will be organized neatly and logically in a digitally centralized system
+							•	Student information will be clearly organized and privately accessible to all participating students and teachers
+							<br><br>
+							To this end, I implemented a database-driven website that integrated each of the overall course expectations with 
+							opportunities the initiative would offer, using WAMP stack. Using a wealth of web technologies including CSS, HTML, PHP and JS,
+							along with MySQL for the database, I created a home interface from scratch, with a login-authenticated database for securely adding, viewing
+							and deleting student records. Robust input sanitation with custom error handlers and regular expressions were used to ensure cleaness
+							and validity of database information. <br>
+							</p>
                             
 							<a class="btn btn-lg btn-success" href="https://github.com/simeng-yang/Student-Database-Management-System">
                                 <i class="fa fa-github fa-3x pull-left"></i>View on<br>Github</a>
