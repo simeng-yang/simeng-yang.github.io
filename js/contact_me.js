@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "contact_me.php",
+                url: "//formspree.io/contact@yangsimeng.ca",
                 type: "POST",
                 data: {
                     name: name,
@@ -26,8 +26,9 @@ $(function() {
                     email: email,
                     message: message
                 },
+				dataType: "json"
                 cache: false,
-                success: function() {
+                success: function(data) {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -40,7 +41,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function(err) {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
