@@ -18,14 +18,15 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/contact@yangsimeng.ca",
-                type: "POST",
+                url: "https://formspree.io/yangsimeng@yahoo.ca",
+                method: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
+				dataType: "json"
                 cache: false,
                 success: function() {
                     // Success message
