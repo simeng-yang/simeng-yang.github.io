@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #4286F4;
+    color: #fed136;
 }
 
 p {
@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #4286F4;
+    color: #fed136;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #3277E5;
+    color: #fec503;
 }
 
 h1,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #4286F4;
+    border-color: #fed136;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #4286F4;
+    background-color: #fed136;
 }
 
 .btn-primary:hover,
@@ -84,7 +84,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #3277E5;
+    background-color: #fec503;
 }
 
 .btn-primary:active,
@@ -108,12 +108,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #4286F4;
-    background-color: #4286F4;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .btn-primary .badge {
-    color: #4286F4;
+    color: #fed136;
     background-color: #fff;
 }
 
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #4286F4;
-    background-color: #4286F4;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .btn-xl .badge {
-    color: #4286F4;
+    color: #fed136;
     background-color: #fff;
 }
 
@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     /* font-family: 'Oswald', sans-serif; */
-    /*color: #4286F4;*/
+    /*color: #fed136;*/
 	  margin-left: 10px;
 	  margin-top: 10px;
 	  width: 40px;
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 	background: url(../img/TransLogo2.png) no-repeat center center scroll;
 	  background-size: 100%;
 	  padding: 0;
-	color: #3277E5;
+	color: #fec503;
 }
 
 .navbar-default .navbar-collapse {
@@ -205,8 +205,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #4286F4;
-    background-color: #4286F4;
+    border-color: #fed136;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #4286F4;
+    background-color: #fed136;
 }
 
 .navbar-default .nav li a {
@@ -229,19 +229,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #4286F4;
+    color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #4286F4;
+    background-color: #fed136;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #3277E5;
+    background-color: #fec503;
 }
 
 @media(min-width:768px) {
@@ -514,7 +514,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #4286F4;
+    background-color: #fed136;
 }
 
 .timeline>li .timeline-image h4 {
@@ -701,7 +701,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #4286F4;
+    border-color: #fed136;
     box-shadow: none;
 }
 
@@ -779,7 +779,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #4286F4;
+    background-color: #fed136;
 }
 
 .btn:focus,
@@ -867,12 +867,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #4286F4;
+    background: #fed136;
 }
 
 ::selection {
     text-shadow: none;
-    background: #4286F4;
+    background: #fed136;
 }
 
 img::selection {
@@ -884,5 +884,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #4286F4;
+    webkit-tap-highlight-color: #fed136;
 }
