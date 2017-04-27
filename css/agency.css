@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #4286F4;
+    color: #fed136;
 }
 
 a:hover,
@@ -867,7 +867,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #3277E5;
+    background: #fed136;
 }
 
 ::selection {
@@ -884,5 +884,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #4286F4;
+    webkit-tap-highlight-color: #fed136;
 }
