@@ -306,6 +306,7 @@ header .intro-text .intro-lead-st {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 28px;
     line-height: 22px;
+	text-transform: uppercase;
 }
 
 header .intro-text .intro-heading {
