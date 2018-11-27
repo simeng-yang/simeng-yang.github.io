@@ -675,7 +675,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map.png);
+    background-image: url(https://storage.googleapis.com/simengyang/map.png);
     background-position: center;
     background-repeat: no-repeat;
 }
