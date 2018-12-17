@@ -140,7 +140,12 @@ a:focus {
 }
 
 .brand-heading {
+    font-size: 100px;
+}
+
+.typed-text {
     font-size: 40px;
+    color: #56b1e2;
 }
 
 .intro-text {

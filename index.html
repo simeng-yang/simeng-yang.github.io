@@ -25,6 +25,26 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
     <link rel="icon" type="image/x-icon" href="img/icon.png" />
 
+        <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- Typed Text -->
+	<script src="js/typed.js"></script>
+	
+    <script>
+        $(function(){
+            $(".typedelement").typed({
+                strings: ["SOFTWARE DEVELOPER", "ENTHUSIASTIC LEARNER",
+                "WATERLOO COMPUTER SCIENCE"],
+                typeSpeed: 25, backSpeed: 25, backDelay: 1500,
+                loop: true,
+                showCursor: false
+            });
+        });
+    </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -34,10 +54,7 @@
                 <div class="row ">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Simeng <span class="light">Yang</span></h1>
-                        <p class="intro-text">Hey there! I'm a third year Computer Science student at the  <a href="https://uwaterloo.ca">University of Waterloo</a>.
-                        I previously worked at <a href="https://www.snaptravel.com/">SnapTravel</a>, <a href="https://www.ingleinternational.com/">Ingle International</a>,
-                        and <a href="https://www.genesys.com/">Genesys</a>.
-                        I'm always looking to learn new things. Feel free to contact me on one of the platforms below or view my resume.</p>
+                        <span class="typed-text typedelement"></span>
                         <div class="page-scroll">
                             <div class="btn-lg intro-body inner">
                                 <ul class="nav navbar-nav">
