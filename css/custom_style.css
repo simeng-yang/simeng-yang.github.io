@@ -152,6 +152,15 @@ a:focus {
     font-size: 18px;
 }
 
+.typed-cursor{
+    font-size: 40px;
+    color: #2879fc;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;

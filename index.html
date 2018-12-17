@@ -40,8 +40,10 @@
                 strings: ["SOFTWARE DEVELOPER", "ENTHUSIASTIC LEARNER",
                 "WATERLOO COMPUTER SCIENCE"],
                 typeSpeed: 25, backSpeed: 25, backDelay: 1500,
-                loop: true,
-                showCursor: false
+                loop: false,
+                callback: function () {
+                    $(".typed-cursor").hide();
+                }
             });
         });
     </script>
