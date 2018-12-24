@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Simeng Yang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi there!">
+    <meta name="author" content="Simeng">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
 
-    <!-- Custom Theme CSS -->
-    <link href="css/custom_style.css" rel="stylesheet">
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
 
-    <!-- Icons -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
-    <link rel="icon" type="image/x-icon" href="img/icon.png" />
-
-        <!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 	
 	<!-- Typed Text -->
 	<script src="js/typed.js"></script>
@@ -38,7 +26,7 @@
         $(function(){
             $(".typedelement").typed({
                 strings: ["SOFTWARE DEVELOPER", "ENTHUSIASTIC LEARNER",
-                "WATERLOO COMPUTER SCIENCE"],
+                "WATERLOO 3A COMPUTER SCIENCE"],
                 typeSpeed: 25, backSpeed: 25, backDelay: 1500,
                 loop: false,
                 callback: function () {
@@ -47,40 +35,22 @@
             });
         });
     </script>
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <section class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Simeng <span class="light">Yang</span></h1>
-                        <span class="typed-text typedelement"></span>
-                        <hr style="margin-top: 0.25em; margin-bottom: 0.5em; padding: 0; width: 1.5em; border: 0.25em solid #2879fc; border-top: 0;">
-                        <div class="page-scroll">
-                            <div class="btn-lg intro-body inner">
-                                <ul class="nav navbar-nav">
-                                    <li>
-                                        <a href="https://storage.googleapis.com/simengyang/Simeng_Resume.pdf"><i class="fa fa-file"></i>  Resume</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/simengyang/"><i class="fa fa-linkedin"></i>  LinkedIn</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/simeng-yang"><i class="fa fa-github-alt"></i>  GitHub</a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:s275yang@edu.uwaterloo.ca"><i class="fa fa-envelope"></i>  Email</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-
+  </head>
+  <body>
+    <!-- Head banner -->
+    <div class="head-banner">
+      <div class="title">
+        <span>Hey, I'm </span><span class="semi-bold">Simeng Yang!</span>
+      </div>
+      <div class="sub-title">
+        <span class="typed-text typedelement"></span>
+      </div>
+      <div class="social">
+        <a href="https://storage.googleapis.com/simengyang/Simeng_Resume.pdf" target="_blank"><img class="icon" src="img/file.png"</a>
+        <a href="https://github.com/simeng-yang" target="_blank"><img class="icon" src="img/git2.png"</a>
+        <a href="mailto:s275yang@edu.uwaterloo.ca?subject=Hello!"><img class="icon" src="img/mail.png"></a>
+        <a href="https://www.linkedin.com/in/simengyang/" target="_blank"><img class="icon" src="img/li.png"></a>
+      </div>
+    </div>
+  </body>
 </html>
